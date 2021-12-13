@@ -19,8 +19,13 @@ static	char **alloc_split(char const *s, char c)
 		return (NULL);
 	return (split);
 }
+void	free_malloc(char *str)
+{
+
+}
 void	*split_s(char **str,char *s,char c)
 {
+
 	
 }
 char **ft_split(char const *s, char c)
